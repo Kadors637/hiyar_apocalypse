@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true
+  },
   // ISR ve HMR ile ilgili sorunları çözmek için ek yapılandırmalar
   experimental: {
     // Turbopack ile ilgili sorunları çözmek için

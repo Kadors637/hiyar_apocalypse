@@ -1515,7 +1515,7 @@ const PixiSprite = ({ isGamePage = false }) => {
           bossRef.current = bossSprite;
 
           // Boss kızgın animasyonunu yükle
-          const bossAngryTexture = await PIXI.Assets.load('/boss_angry.png');
+          const bossAngryTexture = await PIXI.Assets.load('/Boss_angry.png');
           const bossAngryResponse = await fetch('/boss_angry.json');
           const bossAngryAtlasData = await bossAngryResponse.json();
           
